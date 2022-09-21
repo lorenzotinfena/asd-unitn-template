@@ -1,0 +1,23 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/local/bin/g++",
+            "args": [
+                "-DEVAL",
+                "-std=gnu++11",
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "/tmp/${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
