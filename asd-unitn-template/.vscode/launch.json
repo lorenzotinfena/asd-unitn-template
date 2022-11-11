@@ -9,7 +9,7 @@
             "args": [],
             "preLaunchTask": "C/C++: g++ build active file",
             "stopAtEntry": false,
-            "cwd": "/tmp/",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
